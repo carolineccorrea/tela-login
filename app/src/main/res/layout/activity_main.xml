@@ -5,9 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    /
-
-
     <View
         android:id="@+id/topView"
         android:layout_width="wrap_content"
@@ -53,38 +50,42 @@
             android:layout_marginBottom="20dp"
             android:drawableLeft="@drawable/ic_email"
             android:drawablePadding="12dp"
-            android:hint="Email"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_email" />
 
         <EditText
             android:id="@+id/editText7"
             android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="30dp"
             android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
             android:drawableLeft="@drawable/ic_lock"
-            android:hint="password"
             android:drawablePadding="12dp"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:autofillHints="" />
 
         <Button
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@color/colorPrimary"
-            android:textColor="@color/colorWhite"
-            android:text="login" />
+            android:text="@string/login"
+            android:textColor="@color/colorWhite" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Ainda não possui uma conta?"
+        android:text="@string/ainda_n_o_possui_uma_conta"
         android:textColor="@color/colorWhite"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/topView"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
@@ -102,13 +103,14 @@
         android:layout_marginRight="36dp"
         app:layout_constraintEnd_toEndOf="@+id/topView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_personwhite" />
+        app:srcCompat="@drawable/ic_personwhite"
+        android:contentDescription="@string/imagem_de_usuario" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ESQUECEU SUA SENHA?"
+        android:text="@string/esqueceu_sua_senha"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

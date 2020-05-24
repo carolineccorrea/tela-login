@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MyAppMaterial</string>
+    <string name="ainda_n_o_possui_uma_conta">Ainda não possui uma conta?</string>
+    <string name="esqueceu_sua_senha">ESQUECEU SUA SENHA?</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="email">Email</string>
+    <string name="imagem_de_usuario">imagem de usuario</string>
 </resources>
