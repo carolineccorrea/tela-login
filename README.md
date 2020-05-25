@@ -1,3 +1,5 @@
 ## tela-login
 # Interface simples com Java para android
-![Telalogin](https://user-images.githubusercontent.com/31678882/82765085-0df09480-9dea-11ea-8450-1f6f8b1c51ad.png)
+![Screenshot_1](https://user-images.githubusercontent.com/31678882/82782726-6a2bd680-9e33-11ea-85f4-577a78138a13.png)
+![login](https://user-images.githubusercontent.com/31678882/82783469-ea9f0700-9e34-11ea-8d0f-943dd394f67d.png)
+
